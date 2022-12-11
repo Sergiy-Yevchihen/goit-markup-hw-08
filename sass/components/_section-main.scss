@@ -1,0 +1,78 @@
+.sectio-main {
+    padding-top: 64px;
+    padding-bottom: 94px;
+  }
+  
+  /* особливості */
+  
+  .sectio-main__feature-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  .sectio-main__cection-list {
+    display: flex;
+  
+    background-color: var(--hero-fon-color);
+  }
+  
+  .cection-list__section-wrap::before {
+    display: block;
+    content: "";
+    height: 120px;
+    width: 270px;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+  }
+  
+  .cection-list__section-wrap:nth-child(1)::before {
+    background-image: url(../images/antenna.svg);
+  }
+  
+  .cection-list__section-wrap:nth-child(2)::before {
+    background-image: url(../images/clock.svg);
+  }
+  
+  .cection-list__section-wrap:nth-child(3)::before {
+    background-image: url(../images/diagram.svg);
+  }
+  
+  .cection-list__section-wrap:nth-child(4)::before {
+    background-image: url(../images/astronaut.svg);
+  }
+  
+  .cection-list__section-wrap:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .cection-list__title-main {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    color: $titl-text-color;
+    text-align: left;
+    background-color: $hero-fon-color;
+  }
+  
+  .cection-list__pri-title {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: $primary-text-color;
+    text-align: left;
+  }
