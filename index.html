@@ -17,6 +17,70 @@
      <div class="contarner">
         <div class="header__menu-nav menu-nav">
             <a href="" class="header__logo"><span class="header__styls-logo">Web</span>Studio</a>
+            <button class="menu-toggle js-open-menu" aria-controls="mobile-menu" aria-expanded="false"  type="button">
+                <svg width="40" height="40" aria-label="перемикач меню" class="mobil-icon">
+                    <!-- <use class="header__icon-cross" href="./images/icons.svg#icon-close-black"></use> -->
+                    <use class="header__icon-menu" href="./images/icons.svg#icon-menu_24px"></use>
+                </svg>
+            </button>
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <button class="menu-toggle js-close-menu">
+                    <svg width="40" height="40" aria-label="перемикач меню" class="mobil-icon">
+                        <use class="header__icon-cross" href="./images/icons.svg#icon-close-black"></use>
+                      <!-- <svg -->
+                        <!-- fill="currentColor" -->
+                        <!-- viewBox="0 0 20 20" -->
+                        <!-- xmlns="http://www.w3.org/2000/svg" -->
+                        <!-- width="24" -->
+                        <!-- height="24" -->
+                      <!-- > -->
+                        <!-- <path -->
+                          <!-- fill-rule="evenodd" -->
+                          <!-- d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" -->
+                          <!-- clip-rule="evenodd" -->
+                        <!-- ></path> -->
+                      <!-- </svg> -->
+                  </svg>
+                </button>
+                <ul class="mobile-menu">
+                    <li class="mobile-menu__item"><a href="./index.html" class="mobile-menu__link--current">Студія</a></li>
+                    <li class="mobile-menu__item"><a href="./portfolio.html" class="mobile-menu__link">Портфоліо</a></li>
+                    <li class="mobile-menu__item"><a href="./contakte.html" class="mobile-menu__link">Контакти</a></li>
+                </ul>
+                <div class="menu-contacts">
+                    <a
+                      href="tel:+380961111111"
+                      class="menu-contacts__tel menu-contacts__tel--active"
+                      >+38 096 111 11 11</a
+                    >
+                    <a
+                      href="mailto:info@devstudio.com"
+                      class="menu-contacts__mail menu-contacts__mail--active"
+                      >info@devstudio.com</a
+                    >
+                    <ul class="mobile-social">
+                      <li class="mobile-social__item">
+                        <a href="##" class="mobile-social__link">Instagram</a>
+                        <span class="mobile-social__separator"></span>
+                      </li>
+                      <li class="mobile-social__item">
+                        <a href="##" class="mobile-social__link">Twitter</a>
+                        <span class="mobile-social__separator"></span>
+                      </li>
+                      <li class="mobile-social__item">
+                        <a href="##" class="mobile-social__link">Facebook</a>
+                        <span class="mobile-social__separator"></span>
+                      </li>
+                      <li class="mobile-social__item">
+                        <a href="##" class="mobile-social__link">LinkedIn</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                
+          
+                
+            </div>
           <nav class="header__nav">
                 
                 <ul class="header__site-nav site-nav">
@@ -383,7 +447,14 @@
                     <button class="form__bat-form" type="submit">Відправити</button>
                 </form>                        
             </div>
-        </div>    
+        </div>
+        <script
+        defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"
+      ></script>  
+      <script src="./js/mobile-menu.js"></script>    
       <script src="./js/modal.js"></script> 
 </body>
 </html>

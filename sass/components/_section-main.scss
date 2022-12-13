@@ -1,6 +1,11 @@
 .sectio-main {
     padding-top: 64px;
     padding-bottom: 94px;
+
+    @media screen and (max-width: 1200px) {
+      padding-top: 60px;
+    padding-bottom: 60px;
+    }
   }
   
   /* особливості */
@@ -19,13 +24,26 @@
   }
   
   .sectio-main__cection-list {
-    display: flex;
-  
+
+   
+    @media screen and (min-width: 768px) {
+      
+      flex-wrap: wrap;
+       justify-content: center;
+       gap: 30px;
+       display: flex;
+       flex-basis: calc((100% - 60px) / 2);
+    
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex-wrap: nowrap;
+    }
     background-color: var(--hero-fon-color);
   }
   
   .cection-list__section-wrap::before {
-    display: block;
+    display: flex;
     content: "";
     height: 120px;
     width: 270px;
@@ -34,7 +52,54 @@
     background-position: center;
     background-color: #f5f4fa;
     border-radius: 4px;
+
+    @media screen and (max-width: 480px) {
+      height: 120px;
+      width: 100%;
+      background-size: 20%;
+      margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 480px) {
+      height: 120px;
+      width: 450px;
+      background-size: 20%;
+      margin-bottom: 30px;
+
+    }
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      content: "";
+      height: 120px;
+      width: 100%;
+      background-size: 30%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #f5f4fa;
+      border-radius: 4px;
+      
+      
+      //  justify-content: center;
+      flex-wrap: wrap;
+   }
+
+   @media screen and (min-width: 1200px) {
+    display: flex;
+      content: "";
+      height: 120px;
+       width: 270px;
+      background-size: 30%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #f5f4fa;
+      border-radius: 4px;
+
+
+   }
   }
+
+ 
   
   .cection-list__section-wrap:nth-child(1)::before {
     background-image: url(../images/antenna.svg);
@@ -52,8 +117,10 @@
     background-image: url(../images/astronaut.svg);
   }
   
-  .cection-list__section-wrap:not(:last-child) {
-    margin-right: 30px;
+   .cection-list__section-wrap:not(:last-child) {
+    @media screen and (min-width: 1200px) {
+    //  margin-right: 30px;
+   }
   }
   
   .cection-list__title-main {
@@ -66,6 +133,10 @@
     color: $titl-text-color;
     text-align: left;
     background-color: $hero-fon-color;
+
+    @media screen and (max-width: 768px) {
+      text-align: center; 
+    }
   }
   
   .cection-list__pri-title {
@@ -75,4 +146,25 @@
     line-height: 1.18;
     color: $primary-text-color;
     text-align: left;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 30px;
+      
+    }
+
+    @media screen and (min-width: 768px) {
+       width: 354px;
+       
+     }
+
+     @media screen and (min-width: 1200px) {
+      display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: $primary-text-color;
+    text-align: left;
+    width: 270px;
+     }
+
+
   }

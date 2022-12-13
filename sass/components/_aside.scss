@@ -3,13 +3,19 @@
   }
   
   .footer-icon-box {
-    display: flex;
+    @media screen and (min-width: 1200px) {
+    
+     display: flex;
+   }
   }
   
   .info-address {
+    @media screen and (min-width: 1200px) {
+    
     display: inline-block;
     padding-bottom: 60px;
     padding-right: 20px;
+   }
   }
   
   .info-address__aside-logo {

@@ -1,15 +1,7 @@
 .hero {
-    
-    background-color: #c4c4c4;
-  
-   
-  }
-  
-  
-  .hero-main {
-    display: inline-block;
-    text-align: center;
-    text-align: center;
+  @media screen and (min-width: 1200px) {
+  text-align: center;
+    background-color: #ffff;
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
@@ -19,12 +11,81 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: #c4c4c4;
-  
-    // max-width: 1600px;
+    max-width: 1600px;
     margin: 0px auto;
-
+     display: block;
+    
+    // height: 100%;
   }
+  @media screen and (max-width: 480px) {
+    text-align: center;
+    background-color: #ffff;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    // max-width: 768px;
+    margin: 0px auto;
+     display: block;
+    
+    height: 100%;
+  }
+
+  @media screen and (min-width: 480px) {
+    text-align: center;
+    background-color: #ffff;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    // max-width: 768px;
+    margin: 0px auto;
+     display: block;
+    
+    height: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    text-align: center;
+    background-color: #ffff;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/header-img@2x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1200px;
+    margin: 0px auto;
+     display: block;
+    
+    height: 100%;
+}
+}
+  
+  
+  // .hero-main {
+    
+    // background-color: darkgray;
+    
+    
+    
+  
+    
+
+  // }
   
   .hero-main__title-hero {
     margin: auto;
@@ -36,6 +97,18 @@
     line-height: 1.36;
     text-align: center;
     color: $futer-text-color;
+    @media screen and (max-width: 768px) {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 1.62;
+      text-align: center;
+     letter-spacing: 0.06em;
+     text-transform: uppercase;
+     color: #FFFFFF;
+    }
+
   }
   
   .hero-main__button {
@@ -58,7 +131,11 @@
     color: $fon-body-color;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+      @media screen and (max-width: 1200px) {
+        margin-bottom: 118px;
+        margin-left: auto;
+        margin-right: auto;
+      }
   
   &:hover,
   &:focus {

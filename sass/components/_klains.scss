@@ -15,30 +15,65 @@
   }
   
   .client-logo {
+    @media screen and (min-width: 1200px) {
+
+    
     display: flex;
-    align-items: center;
+    
+
+     align-items: center;
+    }
   }
   
   .client-logo__kleinc-list + .client-logo__kleinc-list {
+    @media screen and (min-width: 1200px) {
+
+    
     margin-left: 30px;
+    }
+    // margin-bottom: 30px;
   }
   
   .client-logo__kleinc-list {
+    @media screen and (min-width: 1200px) {
+
+    
     display: flex;
-  
     justify-content: center;
     align-items: center;
     width: 170px;
     height: 92px;
+    }
+   
+
+   
   }
+
+  .client-logo__kleinc-list {
+    @media screen and (min-width: 480px) {
+      width: calc((100% - 30px) / 2); 
+    }
+  }
+
+ 
   
   .client-logo__kleinc-logo {
     display: block;
     border: 1px solid #afb1b8;
     border-color: rgba(175, 177, 184, 1);
     border-radius: 4px;
+    @media screen and (min-width: 1200px) {
+
+    
     min-width: 170px;
     min-height: 92px;
+    }
+    @media screen and (max-width: 768px)
+    {
+      min-width: 210px;
+      min-height: 92px;
+      
+    }
     fill: #afb1b8;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1),

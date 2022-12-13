@@ -12,10 +12,14 @@
   }
   
   .cection-foto__list-ebayt {
+    
+
+   
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 94px;
+   
   }
   
   .list-ebayt__ebayt-foto:not(:last-child) {
@@ -23,7 +27,11 @@
   }
   
   .list-ebayt__ebayt-foto {
+    
+
+    
     width: calc((100% - 60px) / 3);
+   
   }
   
   
