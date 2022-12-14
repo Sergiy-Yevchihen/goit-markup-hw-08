@@ -115,6 +115,10 @@
   .team-list__timse-soc-items {
     width: 44px;
     height: 44px;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 24px;
+    }
+    
   }
   
   
@@ -130,6 +134,7 @@
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    
     fill: #757575;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1),
