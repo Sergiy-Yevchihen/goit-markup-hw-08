@@ -177,7 +177,18 @@
                <h2 class="team__team-title">Наша команда</h2>   
                <ul class="team-list">
                   <li class="team-list__team-cart">
-                      <img src="./images/img_4.jpg" alt="foto" width="270">
+                    <picture>
+                        <source
+                          srcset="./images/img-igor.jpg 1x,
+                          ./images/img-igor@2x.jpg 2x"
+                          media="(max-width:768px)"
+                          
+                          
+                       
+                         />
+                        <img  src="./images/img_4.jpg" alt="foto" width="270">
+                        
+                    </picture>
                       <h3 class="team-list__title-cart">Ігор Демяненко</h3>
                       <p lang="en" class="team-list__pro-title">Product Designer</p>
                       <ul class="team-list__timse-soc-list">
@@ -448,12 +459,12 @@
                 </form>                        
             </div>
         </div>
-        <script
-        defer
-        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-        crossorigin="anonymous"
-      ></script>  
+        <!-- <script -->
+        <!-- defer -->
+        <!-- // src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" -->
+        <!-- // integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" -->
+        <!-- // crossorigin="anonymous" -->
+      <!-- ></script>   -->
       <script src="./js/mobile-menu.js"></script>    
       <script src="./js/modal.js"></script> 
 </body>
