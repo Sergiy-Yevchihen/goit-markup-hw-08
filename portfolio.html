@@ -17,6 +17,58 @@
         <div class="contarner">
            <div class="header__menu-nav menu-nav">
            <a href="" class="header__logo"><span class="header__styls-logo">Web</span>Studio</a>
+           <button class="menu-toggle js-open-menu" aria-controls="mobile-menu" aria-expanded="false"  type="button">
+            <svg width="40" height="40" aria-label="перемикач меню" class="mobil-icon">
+                <!-- <use class="header__icon-cross" href="./images/icons.svg#icon-close-black"></use> -->
+                <use class="header__icon-menu" href="./images/icons.svg#icon-menu_24px"></use>
+            </svg>
+        </button>
+        <div class="menu-container js-menu-container" id="mobile-menu">
+            <button class="menu-toggle js-close-menu">
+                <svg width="40" height="40" aria-label="перемикач меню" class="mobil-icon">
+                    <use class="header__icon-cross" href="./images/icons.svg#icon-close-black"></use>
+                  
+              </svg>
+            </button>
+            <ul class="mobile-menu">
+                <li class="mobile-menu__item"><a href="./index.html" class="mobile-menu__link">Студія</a></li>
+                <li class="mobile-menu__item"><a href="./portfolio.html" class="mobile-menu__link--current">Портфоліо</a></li>
+                <li class="mobile-menu__item"><a href="./contakte.html" class="mobile-menu__link">Контакти</a></li>
+            </ul>
+            <div class="menu-contacts">
+                <a
+                  href="tel:+380961111111"
+                  class="menu-contacts__tel menu-contacts__tel--active"
+                  >+38 096 111 11 11</a
+                >
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="menu-contacts__mail menu-contacts__mail--active"
+                  >info@devstudio.com</a
+                >
+                <ul class="mobile-social">
+                  <li class="mobile-social__item">
+                    <a href="##" class="mobile-social__link">Instagram</a>
+                    <span class="mobile-social__separator"></span>
+                  </li>
+                  <li class="mobile-social__item">
+                    <a href="##" class="mobile-social__link">Twitter</a>
+                    <span class="mobile-social__separator"></span>
+                  </li>
+                  <li class="mobile-social__item">
+                    <a href="##" class="mobile-social__link">Facebook</a>
+                    <span class="mobile-social__separator"></span>
+                  </li>
+                  <li class="mobile-social__item">
+                    <a href="##" class="mobile-social__link">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
+
+            
+      
+            
+        </div>
              <nav class="header__nav">
                    
                    <ul class="header__site-nav site-nav">
@@ -244,7 +296,7 @@
         <div class="footer-icon-box"> 
         <div class="footer-icon-box__info-address"> 
           <a href="" class="info-address__aside-logo"><span class="info-address__footer-logo">Web</span><span class="info-address__studio">Studio</span></a>
-         <address class="info">         
+         <address class="info-address__info">         
                <p lang="uk" class="info-address__aside-text">м. Київ, пр-т Лесі Українки, 26</p> 
                <ul class="info-address__begin-nav">   
                  <li class="info-address__footr-eml"><a href="mailto:info@devstudio.com" class="info-address__asad-link">info@devstudio.com</a></li>
@@ -290,6 +342,8 @@
          </div>
         </div>                 
     </div>
-</footer>    
+</footer>
+<script src="./js/mobile-menu.js"></script>
+<script src="./js/modal.js"></script>    
 </body>
 </html>
