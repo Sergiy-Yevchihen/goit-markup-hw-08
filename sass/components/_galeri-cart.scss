@@ -5,6 +5,10 @@
     background-color: #ffffff;
     gap: 30px;
 
+    @media screen and (max-width: 1200px) {
+      justify-content: flex-start;
+    }
+
   }
   
   .galeri-cart {

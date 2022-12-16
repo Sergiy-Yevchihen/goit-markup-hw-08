@@ -1,11 +1,11 @@
-.sectio-main {
+  .sectio-main {
     padding-top: 64px;
     padding-bottom: 94px;
 
     @media screen and (max-width: 1200px) {
       
       padding-top: 60px;
-    padding-bottom: 60px;
+      padding-bottom: 60px;
     }
   }
   
@@ -83,7 +83,7 @@
       
       //  justify-content: center;
       flex-wrap: wrap;
-   }
+    }
 
    @media screen and (min-width: 1200px) {
     display: flex;
@@ -95,9 +95,7 @@
       background-position: center;
       background-color: #f5f4fa;
       border-radius: 4px;
-
-
-   }
+    }
   }
 
  

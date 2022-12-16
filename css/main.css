@@ -323,7 +323,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .header__nav .header__nav {
+  .header__nav {
     display: none;
   }
 }
@@ -398,7 +398,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .header__cont-nav .header__cont-nav {
+  .header__cont-nav {
     display: none;
   }
 }
@@ -1070,8 +1070,9 @@ body {
 .cection-foto {
   padding-bottom: 94px;
 }
+
 @media screen and (max-width: 1200px) {
-  .cection-foto {
+  .section-foto__foto-foto {
     display: none;
   }
 }
@@ -1186,8 +1187,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .team-list {
-    -ms-flex-preferred-size: calc((100% - 60px) / 2);
-        flex-basis: calc((100% - 60px) / 2);
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1674,6 +1675,13 @@ body {
           justify-content: center;
   background-color: #ffffff;
   gap: 30px;
+}
+@media screen and (max-width: 1200px) {
+  .list-galeri {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
 }
 
 .galeri-cart {

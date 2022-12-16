@@ -1,9 +1,14 @@
   .cection-foto {
-    @media screen and (max-width: 1200px) {
-      display: none;
-    }
-    padding-bottom: 94px;
+     padding-bottom: 94px;
   }
+
+  .section-foto__foto-foto {
+     @media screen and (max-width: 1200px) {
+     display:none;  
+  }
+}
+  
+
   
   .cection-foto__section-title {
     margin-bottom: 50px;
