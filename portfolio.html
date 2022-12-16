@@ -15,89 +15,76 @@
     <!-- шапка -->
     <header class="header">
         <div class="contarner">
-           <div class="header__menu-nav menu-nav">
-           <a href="" class="header__logo"><span class="header__styls-logo">Web</span>Studio</a>
-           <button class="menu-toggle js-open-menu" aria-controls="mobile-menu" aria-expanded="false"  type="button">
-            <svg width="40" height="40" aria-label="перемикач меню" class="mobil-icon">
-                <!-- <use class="header__icon-cross" href="./images/icons.svg#icon-close-black"></use> -->
-                <use class="header__icon-menu" href="./images/icons.svg#icon-menu_24px"></use>
-            </svg>
-        </button>
-        <div class="menu-container js-menu-container" id="mobile-menu">
-            <button class="menu-toggle js-close-menu">
-                <svg width="40" height="40" aria-label="перемикач меню" class="mobil-icon">
-                    <use class="header__icon-cross" href="./images/icons.svg#icon-close-black"></use>
-                  
-              </svg>
-            </button>
-            <ul class="mobile-menu">
-                <li class="mobile-menu__item"><a href="./index.html" class="mobile-menu__link">Студія</a></li>
-                <li class="mobile-menu__item"><a href="./portfolio.html" class="mobile-menu__link--current">Портфоліо</a></li>
-                <li class="mobile-menu__item"><a href="./contakte.html" class="mobile-menu__link">Контакти</a></li>
-            </ul>
-            <div class="menu-contacts">
-                <a
-                  href="tel:+380961111111"
-                  class="menu-contacts__tel menu-contacts__tel--active"
-                  >+38 096 111 11 11</a
-                >
-                <a
-                  href="mailto:info@devstudio.com"
-                  class="menu-contacts__mail menu-contacts__mail--active"
-                  >info@devstudio.com</a
-                >
-                <ul class="mobile-social">
-                  <li class="mobile-social__item">
-                    <a href="##" class="mobile-social__link">Instagram</a>
-                    <span class="mobile-social__separator"></span>
-                  </li>
-                  <li class="mobile-social__item">
-                    <a href="##" class="mobile-social__link">Twitter</a>
-                    <span class="mobile-social__separator"></span>
-                  </li>
-                  <li class="mobile-social__item">
-                    <a href="##" class="mobile-social__link">Facebook</a>
-                    <span class="mobile-social__separator"></span>
-                  </li>
-                  <li class="mobile-social__item">
-                    <a href="##" class="mobile-social__link">LinkedIn</a>
-                  </li>
+            <div class="header__menu-nav menu-nav">
+                <a href="" class="header__logo"><span class="header__styls-logo">Web</span>Studio</a>
+                <button class="menu-toggle js-open-menu" aria-controls="mobile-menu" aria-expanded="false" type="button">
+                    <svg width="40" height="40" aria-label="перемикач меню" class="mobil-icon">                    
+                        <use class="header__icon-menu" href="./images/icons.svg#icon-menu_24px"></use>
+                    </svg>
+                </button>
+                <div class="menu-container js-menu-container" id="mobile-menu">
+                    <button class="menu-toggle js-close-menu">
+                      <svg width="40" height="40" aria-label="перемикач меню" class="mobil-icon">
+                            <use class="header__icon-cross" href="./images/icons.svg#icon-close-black"></use>
+                        
+                        </svg>
+                    </button>
+                    <ul class="mobile-menu">
+                        <li class="mobile-menu__item"><a href="./index.html" class="mobile-menu__link">Студія</a></li>
+                        <li class="mobile-menu__item"><a href="./portfolio.html" class="mobile-menu__link--current">Портфоліо</a></li>
+                        <li class="mobile-menu__item"><a href="./contakte.html" class="mobile-menu__link">Контакти</a></li>
+                    </ul>
+                    <div class="menu-contacts">
+                        <a href="tel:+380961111111" class="menu-contacts__tel menu-contacts__tel--active">+38 096 111 11 11</a>
+                        <a href="mailto:info@devstudio.com" class="menu-contacts__mail menu-contacts__mail--active">info@devstudio.com</a>
+                        <ul class="mobile-social">
+                            <li class="mobile-social__item">
+                              <a href="##" class="mobile-social__link">Instagram</a>
+                              <span class="mobile-social__separator"></span>
+                            </li>
+                            <li class="mobile-social__item">
+                              <a href="##" class="mobile-social__link">Twitter</a>
+                              <span class="mobile-social__separator"></span>
+                            </li>
+                            <li class="mobile-social__item">
+                              <a href="##" class="mobile-social__link">Facebook</a>
+                              <span class="mobile-social__separator"></span>
+                            </li>
+                            <li class="mobile-social__item">
+                              <a href="##" class="mobile-social__link">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>     
+            </div>
+            <nav class="header__nav"> 
+                <ul class="header__site-nav site-nav">
+                    <li class="site-nav__item stik"><a href="./index.html" class="site-nav__link">Студія</a></li>
+                    <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link--current">Портфоліо</a></li>
+                    <li class="site-nav__item"><a href="./contakte.html" class="site-nav__link">Контакти</a></li>
                 </ul>
-              </div>
-
-            
-      
-            
-        </div>
-             <nav class="header__nav">
-                   
-                   <ul class="header__site-nav site-nav">
-                       <li class="site-nav__item stik"><a href="./index.html" class="site-nav__link">Студія</a></li>
-                       <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link--current">Портфоліо</a></li>
-                       <li class="site-nav__item"><a href="./contakte.html" class="site-nav__link">Контакти</a></li>
-                   </ul>
-             </nav>
-             <div class="header__cont-nav cont-nav">
-                   <ul class="cont-nav__aute-nav">
-                       <li class="aute-nav__item"><a href="mailto:info@devstudio.com" class="aute-nav__link">
-                           <svg width="16" height="12" class="aute-nav__icons-mail">
-                               <use href="./images/icons.svg#icon-list"></use>
-                           </svg>info@devstudio.com</a>
-                       </li>
-                       <li class="aute-nav__item"><a href="tel:+380961111111" class="aute-nav__link">
-                           <svg width="10" height="16" class="aute-nav__icons-tel">
-                               <use href="./images/icons.svg#icon-smartphone"></use>
-                           </svg>+38 096 111 11 11</a>
-                       </li>
-                   </ul> 
+            </nav>
+            <div class="header__cont-nav cont-nav">
+                <ul class="cont-nav__aute-nav">
+                    <li class="aute-nav__item"><a href="mailto:info@devstudio.com" class="aute-nav__link">
+                         <svg width="16" height="12" class="aute-nav__icons-mail">
+                             <use href="./images/icons.svg#icon-list"></use>
+                         </svg>info@devstudio.com</a>
+                    </li>
+                    <li class="aute-nav__item"><a href="tel:+380961111111" class="aute-nav__link">
+                       <svg width="10" height="16" class="aute-nav__icons-tel">
+                           <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>+38 096 111 11 11</a>
+                     </li>
+                </ul> 
             </div>       
-         </div>
-       </div>   
+         
+        </div>   
     </header>
     <!-- main -->
-  <main class="butn-main">
-      <section class="cection">
-          <div class="contarner">
+    <main class="butn-main">
+        <section class="cection">
+            <div class="contarner">
               <h1 class="butn-main__feature-title">Портфоліо</h1>
                 <ul class="butn-main__list-portfolio list-portfolio">
                     <li class="list-portfolio__btn-list"><button type=button class="list-portfolio__button-listt">Усі</button></li>
@@ -109,30 +96,30 @@
                 <ul class="butn-main__list-galeri list-galeri">                  
                     <li class="list-galeri__galeri-cart galeri-cart">
                         <a href="##" class="galeri-cart__cart-hado">
-                            <div class="galeri-cart__cart-border"> <!--  box     -->
-                               <img src="./images/tehno.jpg" alt="foto" width="370" class="galeri-cart__cart-img"/>
-                             <div class="galeri-cart__gallery-cart-text"> <!--overlay    -->
-                                  <p>
+                            <div class="galeri-cart__cart-border">                                 
+                                <img src="./images/tehno.jpg" alt="foto" width="100%" class="galeri-cart__cart-img"/> 
+                                <div > <!--overlay    -->
+                                    <p class="galeri-cart__gallery-cart-text">
                                      Ресурс пропонує комплексні пропозиції з різним рівнем
                                      функціоналу та сервісів. Все це дозволить відвідувачу
                                      отримати вичерпні відомості про компанію чи приватну
                                      особу.
-                                 </p>
-                             </div> 
-                         </div>  
-                           <div class="galeri-cart__galeri-stil">
-                               <h2 class="galeri-cart__title-gal">Технокряк</h2>
+                                    </p>
+                                </div> 
+                            </div>
+                            <div class="galeri-cart__galeri-stil">
+                                <h2 class="galeri-cart__title-gal">Технокряк</h2>
                                 <p class="galeri-cart__title-pro">Веб-сайт</p>
-                           </div>                 
-                      </a>
+                            </div>                        
+                        </a>
                     </li>
                 
                     <li class="galeri-cart">
                         <a href="##" class="galeri-cart__cart-hado">
                             <div class="galeri-cart__cart-border">
-                                <img src="./images/sport.jpg" alt="foto" width="370" class="galeri-cart__cart-img"/>
-                                <div class="galeri-cart__gallery-cart-text"> <!--overlay    -->
-                                    <p>
+                                <img src="./images/sport.jpg" alt="foto" width="100%" class="galeri-cart__cart-img"/>
+                                <div > <!--overlay    -->
+                                    <p class="galeri-cart__gallery-cart-text">
                                        Ресурс пропонує комплексні пропозиції з різним рівнем
                                        функціоналу та сервісів. Все це дозволить відвідувачу
                                        отримати вичерпні відомості про компанію чи приватну
@@ -150,9 +137,9 @@
                     <li class="galeri-cart">
                         <a href="##" class="galeri-cart__cart-hado">
                             <div class="galeri-cart__cart-border">   
-                                <img src="./images/seafood.jpg" alt="foto" width="370" class="galeri-cart__cart-img"/>
-                                <div class="galeri-cart__gallery-cart-text"> <!--overlay    -->
-                                    <p>
+                                <img src="./images/seafood.jpg" alt="foto" width="100%" class="galeri-cart__cart-img"/>
+                                <div > <!--overlay    -->
+                                    <p class="galeri-cart__gallery-cart-text">
                                        Ресурс пропонує комплексні пропозиції з різним рівнем
                                        функціоналу та сервісів. Все це дозволить відвідувачу
                                        отримати вичерпні відомості про компанію чи приватну
@@ -171,9 +158,9 @@
                     <li class="galeri-cart">
                         <a href="##" class="galeri-cart__cart-hado">
                             <div class="galeri-cart__cart-border">
-                               <img src="./images/prime.jpg" alt="foto" width="370" class="galeri-cart__cart-img"/>
-                               <div class="galeri-cart__gallery-cart-text"> <!--overlay    -->  
-                                   <p>
+                               <img src="./images/prime.jpg" alt="foto" width="100%" class="galeri-cart__cart-img"/>
+                               <div > <!--overlay    -->  
+                                   <p class="galeri-cart__gallery-cart-text">
                                      Ресурс пропонує комплексні пропозиції з різним рівнем
                                      функціоналу та сервісів. Все це дозволить відвідувачу
                                      отримати вичерпні відомості про компанію чи приватну
@@ -191,9 +178,9 @@
                     <li class="galeri-cart">
                         <a href="##" class="galeri-cart__cart-hado">
                             <div class="galeri-cart__cart-border">
-                                <img src="./images/boxss.jpg" alt="foto" width="370" class="galeri-cart__cart-img"/>
-                                <div class="galeri-cart__gallery-cart-text"> <!--overlay    -->
-                                    <p>
+                                <img src="./images/boxss.jpg" alt="foto" width="100%" class="galeri-cart__cart-img"/>
+                                <div > <!--overlay    -->
+                                    <p class="galeri-cart__gallery-cart-text">
                                     Ресурс пропонує комплексні пропозиції з різним рівнем
                                     функціоналу та сервісів. Все це дозволить відвідувачу
                                     отримати вичерпні відомості про компанію чи приватну
@@ -211,9 +198,9 @@
                     <li class="galeri-cart">
                         <a href="##" class="galeri-cart__cart-hado">
                             <div class="galeri-cart__cart-border">
-                                <img src="./images/border.jpg" alt="foto" width="370" class="galeri-cart__cart-img"/>
-                                <div class="galeri-cart__gallery-cart-text"> <!--overlay    -->
-                                   <p>
+                                <img src="./images/border.jpg" alt="foto" width="100%" class="galeri-cart__cart-img"/>
+                                <div > <!--overlay    -->
+                                   <p class="galeri-cart__gallery-cart-text">
                                        Ресурс пропонує комплексні пропозиції з різним рівнем
                                        функціоналу та сервісів. Все це дозволить відвідувачу
                                        отримати вичерпні відомості про компанію чи приватну
@@ -231,9 +218,9 @@
                     <li class="galeri-cart">
                         <a href="##" class="galeri-cart__cart-hado">
                             <div class="galeri-cart__cart-border">
-                                <img src="./images/edition.jpg" alt="foto" width="370" class="galeri-cart__cart-img"/>
-                                <div class="galeri-cart__gallery-cart-text"> <!--overlay    -->
-                                    <p>
+                                <img src="./images/edition.jpg" alt="foto" width="100%" class="galeri-cart__cart-img"/>
+                                <div > <!--overlay    -->
+                                    <p class="galeri-cart__gallery-cart-text">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем
                                         функціоналу та сервісів. Все це дозволить відвідувачу
                                         отримати вичерпні відомості про компанію чи приватну
@@ -250,9 +237,9 @@
                     <li class="galeri-cart">
                         <a href="##" class="galeri-cart__cart-hado">
                             <div class="galeri-cart__cart-border">
-                                <img src="./images/lab.jpg" alt="foto" width="370" class="galeri-cart__cart-img"/>
-                                <div class="galeri-cart__gallery-cart-text"> <!--overlay    -->
-                                    <p>
+                                <img src="./images/lab.jpg" alt="foto" width="100%" class="galeri-cart__cart-img"/>
+                                <div > <!--overlay    -->
+                                    <p class="galeri-cart__gallery-cart-text">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем
                                         функціоналу та сервісів. Все це дозволить відвідувачу
                                         отримати вичерпні відомості про компанію чи приватну
@@ -270,9 +257,9 @@
                     <li class="galeri-cart">
                         <a href="##" class="galeri-cart__cart-hado">
                             <div class="galeri-cart__cart-border">
-                                <img src="./images/busines.jpg" alt="foto" width="370" class="galeri-cart__cart-img"/>
-                                <div class="galeri-cart__gallery-cart-text"> <!--overlay    -->
-                                    <p>
+                                <img src="./images/busines.jpg" alt="foto" width="100%" class="galeri-cart__cart-img"/>
+                                <div > <!--overlay    -->
+                                    <p class="galeri-cart__gallery-cart-text">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем
                                         функціоналу та сервісів. Все це дозволить відвідувачу
                                         отримати вичерпні відомості про компанію чи приватну
@@ -286,64 +273,121 @@
                            </div>
                         </a>
                     </li>
-               </ul>
+                </ul>
             </div>
         </section>
-  </main>
+    </main>
   <!-- Футер -->
-  <footer class="aside">
-    <div class="contarner"> 
-        <div class="footer-icon-box"> 
-        <div class="footer-icon-box__info-address"> 
-          <a href="" class="info-address__aside-logo"><span class="info-address__footer-logo">Web</span><span class="info-address__studio">Studio</span></a>
-         <address class="info-address__info">         
-               <p lang="uk" class="info-address__aside-text">м. Київ, пр-т Лесі Українки, 26</p> 
-               <ul class="info-address__begin-nav">   
-                 <li class="info-address__footr-eml"><a href="mailto:info@devstudio.com" class="info-address__asad-link">info@devstudio.com</a></li>
-                 <li class="info-address__footer-tel"><a href="tel:+380961111111" class="info-address__asad-link">+380961111111</a></li>                    
-                </ul> 
-             </address>              
-      </div> 
-         <div class="footr-soc-box">
-             <h3 class="footr-soc-box__footr-title">приєднуйтесь</h3>
-             <ul class="footr-soc-box__footr-soc-list">
-                  <li class="footr-soc-list__footr-soc-items"><a href="#" class="footr-soc-list__footr-soc-link link">
-                      <svg width="20" height="20" class="footr-soc-list__footr-soc-icons">
-                         <use href="./images/icons.svg#icon-instagram"></use>
-                     </svg>
-                 </a></li>
-                 <li class="footr-soc-list__footr-soc-items"><a href="#" class="footr-soc-list__footr-soc-link">
+    <footer class="aside">
+        <div class="contarner"> 
+            <div class="footer-icon-box"> 
+                <div class="footer-icon-box__info-soc">
+                    <div class="footer-icon-box__info-address"> 
+                        <a href="#" class="info-address__aside-logo"><span class="info-address__footer-logo">Web</span><span class="info-address__studio">Studio</span></a>
+                        <address class="info-address__info">         
+                            <p lang="uk" class="info-address__aside-text">м. Київ, пр-т Лесі Українки, 26</p> 
+                            <ul class="info-address__begin-nav">   
+                                <li class="info-address__footr-eml"><a href="mailto:info@devstudio.com" class="info-address__asad-link">info@devstudio.com</a></li>
+                                <li class="info-address__footer-tel"><a href="tel:+380961111111" class="info-address__asad-link">+380961111111</a></li>                    
+                            </ul> 
+                        </address>              
+                    </div> 
+                </div>
+                <div class="footr-soc-box">
+                    <h3 class="footr-soc-box__footr-title">приєднуйтесь</h3>
+                    <ul class="footr-soc-box__footr-soc-list">
+                      <li class="footr-soc-list__footr-soc-items"><a href="#" class="footr-soc-list__footr-soc-link link">
+                          <svg width="20" height="20" class="footr-soc-list__footr-soc-icons">
+                             <use href="./images/icons.svg#icon-instagram"></use>
+                         </svg>
+                     </a></li>
+                     <li class="footr-soc-list__footr-soc-items"><a href="#" class="footr-soc-list__footr-soc-link">
+                             <svg width="20" height="20" class="footr-soc-list__footr-soc-icons">
+                           <use href="./images/icons.svg#icon-twitter"></use>
+                          </svg>
+                     </a></li>
+                     <li class="footr-soc-list__footr-soc-items"><a href="#" class="footr-soc-list__footr-soc-link">
                          <svg width="20" height="20" class="footr-soc-list__footr-soc-icons">
-                       <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                 </a></li>
-                 <li class="footr-soc-list__footr-soc-items"><a href="#" class="footr-soc-list__footr-soc-link">
-                     <svg width="20" height="20" class="footr-soc-list__footr-soc-icons">
-                         <use href="./images/icons.svg#icon-facebook"></use>
-                     </svg>
-                 </a></li>
-                 <li class="footr-soc-list__footr-soc-items"><a href="#" class="footr-soc-list__footr-soc-link">
-                    <svg width="20" height="20" class="footr-soc-list__footr-soc-icons">
-                         <use href="./images/icons.svg#icon-linkedin"></use>
-                     </svg>
-                 </a></li>
-             </ul>    
-         </div>
-         <div class="footr-form">
-            <h3 class="footr-form__footr-form-title">Підпишіться на розсилку</h3>       
-                <form>
-                    <input class="footr-form__form-input-footr" type="email" name="email" placeholder="E-mail">
-                    <button class="footr-form__sub-form-footr" type="submit">Підписатися
-                        <svg width="24" height="24" class="footr-form__modal-footr">
-                            <use href="./images/icons.svg#icon-icon-send"></use>
+                             <use href="./images/icons.svg#icon-facebook"></use>
+                         </svg>
+                     </a></li>
+                     <li class="footr-soc-list__footr-soc-items"><a href="#" class="footr-soc-list__footr-soc-link">
+                        <svg width="20" height="20" class="footr-soc-list__footr-soc-icons">
+                             <use href="./images/icons.svg#icon-linkedin"></use>
+                         </svg>
+                     </a></li>
+                 </ul>    
+                </div>
+                <div class="footr-form">
+                    <h3 class="footr-form__footr-form-title">Підпишіться на розсилку</h3>       
+                    <form class="footr-form__fftt">
+                        <input class="footr-form__form-input-footr" type="email" name="email" placeholder="E-mail">
+                        <button class="footr-form__sub-form-footr" type="submit">Підписатися
+                            <svg width="24" height="24" class="footr-form__modal-footr">
+                                <use href="./images/icons.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>                 
+        </div>
+    </footer>
+    <!--  модальне вікно --> 
+    <!-- <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-but" data-modal-close >
+                <svg width="18" height="18" class="modal-of">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+            <h2 class="backdrop__form-title">Залиште свої дані, ми вам передзвонимо</h2> 
+            <form class="backdrop__form form">
+                <!-- <div class="forma"> -->
+                <!-- <div class="form__form-field">
+                    <label for="neme" class="form__form-label">Ім'я</label>
+                    <input class="form__form-input" type="text" name="user-nem" id="neme">
+                    <svg width="18" height="18" class="form__modal-form">
+                        <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+                    </svg>
+                </div>
+                <div class="form__form-field">   
+                    <label for="fone" class="form__form-label">Тклефон</label>
+                    <input class="form__form-input" type="tel" name="tel" id="fone">
+                    <svg width="18" height="18" class="form__modal-form">
+                        <use href="./images/icons.svg#icon-phone-black-18dp-1-1"></use>
+                    </svg>
+                </div>
+                <div class="form__form-field">                
+                    <label for="gmail" class="form__form-label">Пошта</label>
+                    <input class="form__form-input" type="email" name="tel" id="gmail">
+                    <svg width="18" height="18" class="form__modal-form">
+                        <use href="./images/icons.svg#icon-list"></use>
+                    </svg>
+                </div>
+                <div class="form__form-field">
+                    <label class="form__form-coment" for="comment">Коментар</label>
+                    <textarea class="form__textar" name="comment" id="comment" placeholder="Введіть текст" rows="6"></textarea>
+                </div>
+                <div class="form__form-chek">
+                    <label class="form__form-dok" for="form-dok">
+                        <input class="form__checkbox" type="checkbox" name="tops" value="form-dok" id="form-dok">
+                        <svg width="16" height="15" class="form__modal-chek">
+                            <use href="./images/icons.svg#icon-Vector">
                         </svg>
-                    </button>
-                </form>
-         </div>
-        </div>                 
-    </div>
-</footer>
-<script src="./js/mobile-menu.js"></script>
-<script src="./js/modal.js"></script>    
+                        Погоджуюся з розсилкою та приймаю<a href="#" class="form__contrakte">Умови договору</a>
+                    </label> 
+                </div>
+                <button class="form__bat-form" type="submit">Відправити</button>
+            </form>                        
+        </div> -->
+    </div> -->
+    <!-- <script
+        defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"
+    ></script> -->
+    <script src="./js/mobile-menu.js"></script>
+    <!-- <script src="./js/modal.js"></script>     -->
 </body>
 </html>

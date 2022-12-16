@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,10 +14,10 @@
 <body class="body">
     <!--шапка-->    
  <header class="header">
-     <div class="contarner">
+    <div class="contarner">
         <div class="header__menu-nav menu-nav">
             <a href="" class="header__logo"><span class="header__styls-logo">Web</span>Studio</a>
-            <button class="menu-toggle js-open-menu" aria-controls="mobile-menu" aria-expanded="false"  type="button">
+            <button class="menu-toggle js-open-menu" aria-controls="mobile-menu" aria-expanded="false" type="button">
                 <svg width="40" height="40" aria-label="перемикач меню" class="mobil-icon">
                     <!-- <use class="header__icon-cross" href="./images/icons.svg#icon-close-black"></use> -->
                     <use class="header__icon-menu" href="./images/icons.svg#icon-menu_24px"></use>
@@ -36,16 +36,8 @@
                     <li class="mobile-menu__item"><a href="./contakte.html" class="mobile-menu__link">Контакти</a></li>
                 </ul>
                 <div class="menu-contacts">
-                    <a
-                      href="tel:+380961111111"
-                      class="menu-contacts__tel menu-contacts__tel--active"
-                      >+38 096 111 11 11</a
-                    >
-                    <a
-                      href="mailto:info@devstudio.com"
-                      class="menu-contacts__mail menu-contacts__mail--active"
-                      >info@devstudio.com</a
-                    >
+                    <a href="tel:+380961111111" class="menu-contacts__tel menu-contacts__tel--active">+38 096 111 11 11</a>
+                    <a href="mailto:info@devstudio.com" class="menu-contacts__mail menu-contacts__mail--active">info@devstudio.com</a>
                     <ul class="mobile-social">
                       <li class="mobile-social__item">
                         <a href="##" class="mobile-social__link">Instagram</a>
@@ -63,14 +55,9 @@
                         <a href="##" class="mobile-social__link">LinkedIn</a>
                       </li>
                     </ul>
-                  </div>
-
-                
-          
-                
+                </div>     
             </div>
-          <nav class="header__nav">
-                
+          <nav class="header__nav">    
                 <ul class="header__site-nav site-nav">
                     <li class="site-nav__item stik"><a href="./index.html" class="site-nav__link--current">Студія</a></li>
                     <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфоліо</a></li>
@@ -90,8 +77,8 @@
                         </svg>+38 096 111 11 11</a>
                     </li>
                 </ul> 
-         </div>       
-      </div>
+            </div>       
+        </div>
     </div>   
  </header>
  <main>
@@ -218,27 +205,28 @@
                       </ul>
                   </li>
                    <li class="team-list__team-cart">
-                    <picture>
-                        <source
-                          srcset="./images/mob-oly.jpg 1x,
-                          ./images/mob-oly@2x.jpg 2x"
-                          media="(max-width:768px)"                      
-                        />
-                        <source
-                        srcset="./images/tabl-oly.jpg 1x,
-                        ./images/tabl-oly@2x.jpg 2x"
-                        media="(max-width:1200px)"       
+                        <picture>
+                            <source
+                              srcset="./images/mob-oly.jpg 1x,
+                              ./images/mob-oly@2x.jpg 2x"
+                              media="(max-width:768px)"                      
+                            />
+                            <source
+                            srcset="./images/tabl-oly.jpg 1x,
+                            ./images/tabl-oly@2x.jpg 2x"
+                            media="(max-width:1200px)"       
+    
+                            />
+                            <source
+                            srcset="./images/destop-oly.jpg 1x,
+                            ./images/destop-oly@2x.jpg 2x"
+                            media="(min-width:1200px)"       
+    
+                            />
 
-                        />
-                        <source
-                        srcset="./images/destop-oly.jpg 1x,
-                        ./images/destop-oly@2x.jpg 2x"
-                        media="(min-width:1200px)"       
-
-                        />
-
-
-                       <img src="./images/img_1.jpg " alt="foto" width="100%">
+                    
+                           <img src="./images/img_1.jpg " alt="foto" width="100%">
+                        </picture>   
                        <h3 class="team-list__title-cart">Ольга Рєпіна</h3>
                        <p lang="en" class="team-list__pro-title">Frontend Developer</p>
                        <ul class="team-list__timse-soc-list">
@@ -265,8 +253,8 @@
                        </ul> 
                     </li>
                    <li class="team-list__team-cart">
-                    <picture>
                         <picture>
+                          
                             <source
                               srcset="./images/mobil-koly.jpg 1x,
                               ./images/mobil-koly@2x.jpg 2x"
@@ -283,8 +271,10 @@
                             ./images/dest-koly@2x.jpg 2x"
                             media="(min-width:1200px)"       
     
-                            /> 
-                       <img src="./images/img_2.jpg" alt="foto" width="100%">
+                            />
+                            
+                           <img src="./images/img_2.jpg" alt="foto" width="100%">
+                       </picture>
                        <h3 class="team-list__title-cart">Микола Тарасов</h3>
                        <p lang="en" class="team-list__pro-title">Marketing</p>
                        <ul class="team-list__timse-soc-list">
@@ -314,25 +304,27 @@
                    </li>   
                    <li class="team-list__team-cart">
                    
-                         <picture>
+                        <picture>
                             <source
                               srcset="./images/mobil-miha.jpg 1x,
                               ./images/mobil-miha@2x.jpg 2x"
                               media="(max-width:768px)"                      
                             />
                             <source
-                            srcset="./images/tabl-miha.jpg 1x,
-                            ./images/tabl-miha@2x.jpg 2x"
-                            media="(max-width:1200px)"       
+                              srcset="./images/tabl-miha.jpg 1x,
+                              ./images/tabl-miha@2x.jpg 2x"
+                               media="(max-width:1200px)"       
     
                             />
                             <source
-                            srcset="./images/dest-miha.jpg 1x,
-                            ./images/dest-miha@2x.jpg 2x"
-                            media="(min-width:1200px)"       
+                               srcset="./images/dest-miha.jpg 1x,
+                               ./images/dest-miha@2x.jpg 2x"
+                               media="(min-width:1200px)"       
     
-                        /> 
-                       <img src="./images/img_3.jpg " alt="foto" width="100%">
+                             /> 
+                            
+                            <img src="./images/img_3.jpg " alt="foto" width="100%">
+                        </picture>
                        <h3 class="team-list__title-cart">Михайло Єрмаков</h3>
                        <p lang="en" class="team-list__pro-title">UI Designer</p>
                        <ul class="team-list__timse-soc-list">
@@ -367,47 +359,47 @@
             <div class="contarner"> 
                <h2 class="kleinc__post-title-klains">Постійні клієнти</h2> 
                 <ul class="kleinc__client-logo client-logo">              
-                        <li class="client-logo__kleinc-list">
+                    <li class="client-logo__kleinc-list">
                           <a href="#" class="client-logo__kleinc-logo">
                               <svg width="41" height="47" class="client-logo__klent-foto">
                                   <use href="./images/icons.svg#icon-group_yandco"></use>
                               </svg>
                           </a>
-                      </li>                         
-                     <li class="client-logo__kleinc-list">
+                    </li>                         
+                    <li class="client-logo__kleinc-list">
                             <a href="" class="client-logo__kleinc-logo">
                                 <svg width="40" height="52" class="client-logo__klent-foto">
                                     <use href="./images/icons.svg#icon-group_company"></use>
                                 </svg>
                             </a>
-                        </li>                  
+                    </li>                  
                     <li class="client-logo__kleinc-list">
                            <a href="" class="client-logo__kleinc-logo">
                                <svg width="44" height="42" class="client-logo__klent-foto">
                                    <use href="./images/icons.svg#icon-group_compa"></use>
                                </svg>
                            </a>
-                       </li>          
-                     <li class="client-logo__kleinc-list">
+                    </li>          
+                    <li class="client-logo__kleinc-list">
                             <a href="" class="client-logo__kleinc-logo">
                                 <svg width="85" height="41" class="client-logo__klent-foto">
                                     <use href="./images/icons.svg#icon-group_peters"></use>
                                 </svg>
                             </a>
-                        </li>              
-                     <li class="client-logo__kleinc-list">
-                            <a href="" class="client-logo__kleinc-logo">
-                                <svg width="63" height="46" class="client-logo__klent-foto">
-                                    <use href="./images/icons.svg#icon-group_brand"></use>
-                                </svg>
-                            </a>
-                        </li>              
-                      <li class="client-logo__kleinc-list">
-                            <a href="" class="client-logo__kleinc-logo">
-                              <svg width="94" height="44" class="client-logo__klent-foto">
-                                 <use href="./images/icons.svg#icon-group_tag"></use>
-                              </svg>
-                            </a>
+                    </li>              
+                    <li class="client-logo__kleinc-list">
+                        <a href="" class="client-logo__kleinc-logo">
+                            <svg width="63" height="46" class="client-logo__klent-foto">
+                                <use href="./images/icons.svg#icon-group_brand"></use>
+                            </svg>
+                        </a>
+                    </li>              
+                    <li class="client-logo__kleinc-list">
+                        <a href="" class="client-logo__kleinc-logo">
+                            <svg width="94" height="44" class="client-logo__klent-foto">
+                                <use href="./images/icons.svg#icon-group_tag"></use>
+                            </svg>
+                        </a>
                     </li>                 
               </ul>
           </div>
@@ -420,7 +412,7 @@
                 <div class="footer-icon-box"> 
                     <div class="footer-icon-box__info-soc">
                         <div class="footer-icon-box__info-address"> 
-                            <a href="" class="info-address__aside-logo"><span class="info-address__footer-logo">Web</span><span class="info-address__studio">Studio</span></a>
+                            <a href="#" class="info-address__aside-logo"><span class="info-address__footer-logo">Web</span><span class="info-address__studio">Studio</span></a>
                             <address class="info-address__info">         
                                 <p lang="uk" class="info-address__aside-text">м. Київ, пр-т Лесі Українки, 26</p> 
                                 <ul class="info-address__begin-nav">   
@@ -477,7 +469,7 @@
                         <use href="./images/icons.svg#icon-close-black"></use>
                     </svg>
                 </button>
-                 <h2 class="backdrop__form-title">Залиште свої дані, ми вам передзвонимо</h2> 
+                <h2 class="backdrop__form-title">Залиште свої дані, ми вам передзвонимо</h2> 
                 <form class="backdrop__form form">
                     <!-- <div class="forma"> -->
                     <div class="form__form-field">
@@ -518,13 +510,13 @@
                 </form>                        
             </div>
         </div>
-        <!-- <script -->
-        <!-- defer -->
-        <!-- // src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" -->
-        <!-- // integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" -->
-        <!-- // crossorigin="anonymous" -->
-      <!-- ></script>   -->
-      <script src="./js/mobile-menu.js"></script>    
-      <script src="./js/modal.js"></script> 
+        <!-- <script
+            defer
+            src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+            integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+            crossorigin="anonymous" -->
+        ></script>
+        <script src="./js/mobile-menu.js"></script>    
+        <script src="./js/modal.js"></script> 
 </body>
 </html>

@@ -9,9 +9,21 @@
   }
   
   .list-portfolio__btn-list + .list-portfolio__btn-list {
+    @media screen and (min-width: 1200px) {
     margin-left: 8px;
   }
-  
+  }
+   
+    .list-portfolio {
+  @media screen and (max-width: 1200px) {
+   max-width: 320px;
+   flex-wrap: wrap;
+    align-items: flex-start;
+  justify-content: flex-start;
+   gap: 8px;
+   margin-right: auto;
+  }
+  }
   .butn-main__feature-title {
   
   position: absolute;
