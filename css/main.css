@@ -445,6 +445,11 @@ body {
   display: block;
 }
 
+@media screen and (max-width: 1200px) {
+  .aute-nav__item + .aute-nav__item {
+    margin-top: 10px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .aute-nav__item + .aute-nav__item {
     margin-left: 50px;
@@ -466,7 +471,6 @@ body {
 .aute-nav__icons-mail,
 .aute-nav__icons-tel {
   fill: currentColor;
-  margin-right: 10px;
 }
 
 .aute-nav__link {
@@ -2051,6 +2055,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     margin-top: 65px;
+    margin-left: 50px;
   }
 }
 @media screen and (min-width: 1200px) {
