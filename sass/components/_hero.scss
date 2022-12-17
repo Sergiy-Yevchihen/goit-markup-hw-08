@@ -1,6 +1,6 @@
 .hero {
   @media screen and (min-width: 1200px) {
-  text-align: center;
+    text-align: center;
     background-color: #ffff;
     background-image: linear-gradient(
         to right,
@@ -11,12 +11,25 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1600px;
+    //  max-width: 1600px;
     margin: 0px auto;
      display: block;
     
     // height: 100%;
-  }
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+        background-image: linear-gradient(
+        to right,
+         rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url('../images/destop3200@2x.ipg');
+      
+      }  
+  }   
+    
+  
   @media screen and (max-width: 480px) {
     text-align: center;
     background-color: #ffff;
@@ -33,7 +46,18 @@
     margin: 0px auto;
      display: block;
     
-    height: 100%;
+     height: 100%;
+     @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+        background-image: linear-gradient(
+        to right,
+         rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url('../images/header-img@2x.ipg');
+      
+      }  
   }
 
   @media screen and (min-width: 480px) {
@@ -53,6 +77,17 @@
      display: block;
     
     height: 100%;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+        background-image: linear-gradient(
+        to right,
+         rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url('../images/header-img@2x.ipg');
+      
+      }  
   }
 
   @media screen and (min-width: 768px) {
@@ -63,29 +98,32 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/header-img@2x.jpg");
+      url("../images/header_768.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1200px;
+    // max-width: 1200px;
     margin: 0px auto;
      display: block;
     
     height: 100%;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+        background-image: linear-gradient(
+        to right,
+         rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url('../images/header_1530@2x.ipg');
+      
+      }  
+  }
 }
-}
   
-  
-  // .hero-main {
-    
-    // background-color: darkgray;
-    
-    
-    
-  
-    
 
-  // }
+        
+ 
   
   .hero-main__title-hero {
     margin: auto;

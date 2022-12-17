@@ -122,21 +122,21 @@
             <div class="contarner section-foto__foto-foto">
                 <h2 class="cection-foto__section-title">Чим ми займаємося</h2>
                 <ul class="cection-foto__list-ebayt list-ebayt"> 
-                    <li class="list-ebayt__ebayt-foto"><img src="./images/img_5.jpg" alt="foto" width="370">
+                    <li class="list-ebayt__ebayt-foto"><img srcset="img_5.jpg 1x, 1_740@2x.jpg 2x" src="./images/img_5.jpg" alt="foto" width="370">
                         <div class="list-ebayt__ebayt-cart">                    
                             <div class="list-ebayt__label">
                                 <p class="list-ebayt__label-titl">Десктопні додатки</p>
                             </div> 
                         </div>                
                     </li> 
-                    <li class="list-ebayt__ebayt-foto"><img src="./images/img_6.jpg" alt="foto" width="370">
+                    <li class="list-ebayt__ebayt-foto"><img srcset="img_6.jpg 1x, img_2_740@2x.jpg 2x" src="./images/img_6.jpg" alt="foto" width="370">
                         <div class="list-ebayt__ebayt-cart">   
                             <div class="list-ebayt__label">
                                 <p class="list-ebayt__label-titl">Мобільні додатки</p>
                             </div>
                         </div> 
                     </li> 
-                    <li class="list-ebayt__ebayt-foto"><img src="./images/img_7.jpg" alt="foto" width="370"> 
+                    <li class="list-ebayt__ebayt-foto"><img srcset="img_7.jpg 1x, img_3_740@2x.jpg 2x" src="./images/img_7.jpg" alt="foto" width="370"> 
                         <div class="list-ebayt__ebayt-cart">  
                             <div class="list-ebayt__label">
                                 <p class="list-ebayt__label-titl">Дизайнерські рішення</p>
@@ -156,23 +156,19 @@
                         <source
                           srcset="./images/img-igor.jpg 1x,
                           ./images/img-igor@2x.jpg 2x"
-                          media="(max-width:768px)"                      
+                          media="(min-width:480px)"                      
                         />
                         <source
-                        srcset="./images/tabl.jpg 1x,
-                        ./images/tabl@2x.jpg 2x"
-                        media="(max-width:1200px)"       
-
+                          srcset="./images/tabl.jpg 1x,
+                          ./images/tabl@2x.jpg 2x"
+                          media="(min-width:768px)"       
                         />
                         <source
-                        srcset="./images/destop.jpg 1x,
-                        ./images/destop@2x.jpg 2x"
-                        media="(min-width:1200px)"       
-
-                        />
-
-
-                        <img  src="./images/img_4.jpg" alt="foto" width="100%">
+                          srcset="./images/destop.jpg 1x,
+                          ./images/destop@2x.jpg 2x"
+                           media="(min-width:1200px)"
+                        />   <!--  -->    
+                        <img src="./images/img_4.jpg" alt="foto" width="" height=""> 
                         
                     </picture>
                       <h3 class="team-list__title-cart">Ігор Демяненко</h3>
@@ -209,12 +205,12 @@
                             <source
                               srcset="./images/mob-oly.jpg 1x,
                               ./images/mob-oly@2x.jpg 2x"
-                              media="(max-width:768px)"                      
+                              media="(min-width:480px)"                      
                             />
                             <source
                             srcset="./images/tabl-oly.jpg 1x,
                             ./images/tabl-oly@2x.jpg 2x"
-                            media="(max-width:1200px)"       
+                            media="(min-width:768px)"       
     
                             />
                             <source
@@ -225,7 +221,7 @@
                             />
 
                     
-                           <img src="./images/img_1.jpg " alt="foto" width="100%">
+                           <img src="./images/img_1.jpg " alt="foto" width="">
                         </picture>   
                        <h3 class="team-list__title-cart">Ольга Рєпіна</h3>
                        <p lang="en" class="team-list__pro-title">Frontend Developer</p>
@@ -258,12 +254,12 @@
                             <source
                               srcset="./images/mobil-koly.jpg 1x,
                               ./images/mobil-koly@2x.jpg 2x"
-                              media="(max-width:768px)"                      
+                              media="(min-width:480px)"                      
                             />
                             <source
                             srcset="./images/tabl-koly.jpg 1x,
                             ./images/tabl-koly@2x.jpg 2x"
-                            media="(max-width:1200px)"       
+                            media="(min-width:768px)"       
     
                             />
                             <source
@@ -273,7 +269,7 @@
     
                             />
                             
-                           <img src="./images/img_2.jpg" alt="foto" width="100%">
+                           <img src="./images/img_2.jpg" alt="foto" width="">
                        </picture>
                        <h3 class="team-list__title-cart">Микола Тарасов</h3>
                        <p lang="en" class="team-list__pro-title">Marketing</p>
@@ -308,12 +304,12 @@
                             <source
                               srcset="./images/mobil-miha.jpg 1x,
                               ./images/mobil-miha@2x.jpg 2x"
-                              media="(max-width:768px)"                      
+                              media="(min-width:480px)"                      
                             />
                             <source
                               srcset="./images/tabl-miha.jpg 1x,
                               ./images/tabl-miha@2x.jpg 2x"
-                               media="(max-width:1200px)"       
+                               media="(min-width:768px)"       
     
                             />
                             <source
@@ -323,7 +319,7 @@
     
                              /> 
                             
-                            <img src="./images/img_3.jpg " alt="foto" width="100%">
+                            <img src="./images/img_3.jpg " alt="foto" width="">
                         </picture>
                        <h3 class="team-list__title-cart">Михайло Єрмаков</h3>
                        <p lang="en" class="team-list__pro-title">UI Designer</p>
