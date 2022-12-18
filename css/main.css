@@ -1745,6 +1745,10 @@ body {
   }
 }
 
+.galeri-cart__cart-img {
+  display: block;
+}
+
 .galeri-cart__cart-hado {
   text-decoration: none;
 }
