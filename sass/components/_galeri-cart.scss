@@ -15,21 +15,24 @@
    
     
     background: #ffffff;
-    
+    // width: 370px;
+    // width: 100%;
     box-shadow: $box-shadow-color;
     box-sizing: border-box;
+
      @media screen and (min-width: 480px) {
-         width: 450px;
-        // height: 294px;
+        width: 450px;
+        
      }
 
      @media screen and (min-width: 768px) {
-       width: 354px;
+      width: 354px;
      
      }
+
      @media screen and (min-width: 1200px) {
       width: 370px;
-      //  height: 100%;
+      
      }
 
   }
@@ -47,10 +50,11 @@
     }
   }
   
-  // .galeri-cart__cart-img {
-  //   display: block;
+   .galeri-cart__cart-img {
+     display: block;
     
-  // }
+    }
+
   .galeri-cart__cart-hado {
     text-decoration: none;
     // height: 400px;
@@ -71,7 +75,7 @@
     text-align: left;
     margin-bottom: 20px;
     margin-left: 24px;
-    // padding-bottom: 15px;
+   
   }
   
   .galeri-cart__title-gal {
@@ -79,7 +83,7 @@
     font-size: 14px;
     line-height: 1.2;
     color: $titl-text-color;
-    text-align: center;
+    // text-align: center;
     text-align: left;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -89,14 +93,16 @@
   .butn-main {
     padding-bottom: 94px;
   }
+
+  
   
   .link {
     text-decoration: none;
   }
   
    .galeri-cart__cart-border {
-    position: relative;
-    overflow: hidden; 
+     position: relative;
+    overflow: hidden;
     
   }
   
@@ -122,10 +128,10 @@
     transition: transform 250ms ease;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     @media screen and (max-width: 768px) {
-      // height: 100%;
+    //  height: 100%;
     }
   }
-  // 294px
+  
   .galeri-cart__cart-hado:hover .galeri-cart__gallery-cart-text {
     transform: translateY(0);
   }
@@ -138,10 +144,11 @@
     transform: translateY(0);
   }
   
-  // .galeri-cart__galeri-stil {
-  //   border: 1px solid #eeeeee;
-   
-  // }
+   .galeri-cart__galeri-stil {
+   border: 1px solid #eeeeee;
+    // height: 100px;
+    display:inline;
+   }
   
   .galeri-cart__cart-hado:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),

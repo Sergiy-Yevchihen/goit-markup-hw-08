@@ -1745,6 +1745,10 @@ body {
   }
 }
 
+.galeri-cart__cart-img {
+  display: block;
+}
+
 .galeri-cart__cart-hado {
   text-decoration: none;
 }
@@ -1767,7 +1771,6 @@ body {
   font-size: 14px;
   line-height: 1.2;
   color: #212121;
-  text-align: center;
   text-align: left;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -1830,6 +1833,11 @@ body {
 .galeri-cart__cart-hado:focus .gallery-cart-text {
   -webkit-transform: translateY(0);
           transform: translateY(0);
+}
+
+.galeri-cart__galeri-stil {
+  border: 1px solid #eeeeee;
+  display: inline;
 }
 
 .galeri-cart__cart-hado:hover {

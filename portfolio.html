@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous"> 
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/> 
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body class="body">
@@ -96,27 +97,25 @@
                     <li class="list-galeri__galeri-cart galeri-cart">
                         <a href="##" class="galeri-cart__cart-hado">
                             <div class="galeri-cart__cart-border">
-                                <picture>
+                                <picture class="gggggg">
                                     <source
-                                      srcset="./images/tehno_450.jpg 1x,
-                                      ./images/tehno_450@2x.jpg 2x"
-                                      media="(min-width:480px)"                      
-                                    /> 
-                                     <source
-                                      srcset="./images/tehno_375.jpg 1x,
+                                    srcset="./images/tehno_450.jpg 1x,
+                                    ./images/tehno_450@2x.jpg 2x"
+                                    media="(max-width:768px)"                                                        
+                                    />  
+                                    <source
+                                      srcset="./images/tehno_375.jpg 1x, 
                                       ./images/tehno_375@2x.jpg 2x"
-                                       media="(min-width:768px)"       
-            
-                                    /> 
+                                       media="(max-width:1200px)"       
+                                    />   
                                     <source
-                                       srcset="./images/tehno_370.jpg 1x,
+                                       srcset="./images/tehno_370.jpg 1x, 
                                        ./images/tehno_370@2x.jpg 2x"
                                        media="(min-width:1200px)"       
-            
-                                     />                                   
-                                    <img src="./images/tehno.jpg" alt="foto" width="" class="galeri-cart__cart-img">
+                                    />                                    
+                                    <img src="./images/tehno.jpg" alt="foto" class="galeri-cart__cart-img">
                                 </picture> 
-                                <div >
+                                <div>
                                     <p class="galeri-cart__gallery-cart-text">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем
                                         функціоналу та сервісів. Все це дозволить відвідувачу
@@ -133,29 +132,27 @@
                         </a>
                     </li>
                 
-                     <li class="galeri-cart">
+                     <li class="list-galeri__galeri-cart galeri-cart">
                         <a href="##" class="galeri-cart__cart-hado">
                             <div class="galeri-cart__cart-border">
                                 <source
-                                    srcset="./images/star_450.jpg 1x,
-                                      ./images/star_450@2x.jpg 2x"
-                                      media="(min-width:480px)"                      
+                                    srcset="./images/star_450.jpg 1x, 
+                                    ./images/star_450@2x.jpg 2x"
+                                    media="(max-width:768px)"                      
+                                    />
+                                    <source
+                                    srcset="./images/star_375.jpg 1x,
+                                    ./images/star_375@2x.jpg 2x"
+                                    media="(max-width:1200px)"       
                                     /> 
                                     <source
-                                      srcset="./images/star_375.jpg 1x,
-                                      ./images/star_375@2x.jpg 2x"
-                                       media="(min-width:768px)"       
-            
-                                    /> 
-                                    <source
-                                       srcset="./images/star_370.jpg 1x,
-                                       ./images/star_370@2x.jpg 2x"
-                                       media="(min-width:1200px)"       
-            
-                                     />        
-                                    <img src="./images/sport.jpg" alt="foto" width="" class="galeri-cart__cart-img">
+                                    srcset="./images/star_370.jpg 1x,
+                                    ./images/star_370@2x.jpg 2x"
+                                    media="(min-width:1200px)"       
+                                    />       
+                                    <img src="./images/sport.jpg" alt="foto" class="galeri-cart__cart-img">
                                 </picture>
-                                <div > 
+                                <div> 
                                     <p class="galeri-cart__gallery-cart-text">
                                        Ресурс пропонує комплексні пропозиції з різним рівнем
                                        функціоналу та сервісів. Все це дозволить відвідувачу
@@ -176,8 +173,8 @@
                             <div class="galeri-cart__cart-border">
                                 <source
                                     srcset="./images/seafood_450.jpg 1x,
-                                      ./images/seafood_450@2x.jpg 2x"
-                                      media="(min-width:480px)"                      
+                                    ./images/seafood_450@2x.jpg 2x"
+                                      media="(max-width:768px)"                      
                                     /> 
                                     <source
                                       srcset="./images/seafood_375.jpg 1x,
@@ -190,10 +187,10 @@
                                        ./images/seafood_370@2x.jpg 2x"
                                        media="(min-width:1200px)"       
             
-                                     />           
-                                    <img src="./images/seafood.jpg" alt="foto" width="" class="galeri-cart__cart-img">
+                                    />           
+                                    <img src="./images/seafood.jpg" alt="foto" class="galeri-cart__cart-img">
                                 </picture>    
-                                <div > <!--overlay    -->
+                                <div> <!--overlay    -->
                                     <p class="galeri-cart__gallery-cart-text">
                                        Ресурс пропонує комплексні пропозиції з різним рівнем
                                        функціоналу та сервісів. Все це дозволить відвідувачу
@@ -216,7 +213,7 @@
                                 <source
                                     srcset="./images/prime_450.jpg 1x,
                                       ./images/prime_450@2x.jpg 2x"
-                                      media="(min-width:480px)"                      
+                                      media="(max-width:768px)"                      
                                     /> 
                                     <source
                                       srcset="./images/prime_375.jpg 1x,
@@ -229,11 +226,11 @@
                                        ./images/prime_370@2x.jpg 2x"
                                        media="(min-width:1200px)"       
         
-                                     />
+                                    />
                                     
-                                    <img src="./images/prime.jpg" alt="foto" width="" class="galeri-cart__cart-img">
+                                    <img src="./images/prime.jpg" alt="foto" class="galeri-cart__cart-img">
                                 </picture>    
-                               <div > <!--overlay    -->  
+                                <div> <!--overlay    -->  
                                    <p class="galeri-cart__gallery-cart-text">
                                      Ресурс пропонує комплексні пропозиції з різним рівнем
                                      функціоналу та сервісів. Все це дозволить відвідувачу
@@ -254,8 +251,8 @@
                             <div class="galeri-cart__cart-border">
                                 <source
                                     srcset="./images/boxses_450.jpg 1x,
-                                      ./images/boxses_450@2x.jpg 2x"
-                                      media="(min-width:480px)"                      
+                                    ./images/boxses_450@2x.jpg 2x"
+                                    media="(max-width:768px)"                      
                                     /> 
                                     <source
                                       srcset="./images/boxses_375.jpg 1x,
@@ -268,11 +265,11 @@
                                        ./images/boxses_370@2x.jpg 2x"
                                        media="(min-width:1200px)"       
         
-                                     />
+                                    />
                                     
-                                       <img src="./images/boxss.jpg" alt="foto" width="" class="galeri-cart__cart-img">
-                                    </picture>    
-                                <div > <!--overlay    -->
+                                    <img src="./images/boxss.jpg" alt="foto" class="galeri-cart__cart-img">
+                                </picture>    
+                                <div> <!--overlay    -->
                                     <p class="galeri-cart__gallery-cart-text">
                                     Ресурс пропонує комплексні пропозиції з різним рівнем
                                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -294,7 +291,7 @@
                                 <source
                                     srcset="./images/border_450.jpg 1x,
                                       ./images/border_450@2x.jpg 2x"
-                                      media="(min-width:480px)"                      
+                                      media="(max-width:768px)"                      
                                     /> 
                                     <source
                                       srcset="./images/border_375.jpg 1x,
@@ -311,13 +308,13 @@
                                 </picture>    
                                     <img src="./images/border.jpg" alt="foto" width="" class="galeri-cart__cart-img">
                                         
-                                <div > <!--overlay    -->
-                                   <p class="galeri-cart__gallery-cart-text">
+                                <div> <!--overlay    -->
+                                    <p class="galeri-cart__gallery-cart-text">
                                        Ресурс пропонує комплексні пропозиції з різним рівнем
                                        функціоналу та сервісів. Все це дозволить відвідувачу
                                        отримати вичерпні відомості про компанію чи приватну
                                         особу.
-                                   </p>
+                                    </p>
                                 </div>   
                          </div> 
                             <div class="galeri-cart__galeri-stil">
@@ -333,7 +330,7 @@
                                 <source
                                     srcset="./images/edition_450.jpg 1x,
                                       ./images/edition_450@2x.jpg 2x"
-                                      media="(min-width:480px)"                      
+                                      media="(max-width:768px)"                      
                                     /> 
                                     <source
                                       srcset="./images/edition_375.jpg 1x,
@@ -346,11 +343,11 @@
                                        ./images/edition_370@2x.jpg 2x"
                                        media="(min-width:1200px)"       
         
-                                     />
+                                    />
                                     
                                     <img src="./images/edition.jpg" alt="foto" width="" class="galeri-cart__cart-img">
                                 </picture>        
-                                <div > <!--overlay    -->
+                                <div> <!--overlay    -->
                                     <p class="galeri-cart__gallery-cart-text">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем
                                         функціоналу та сервісів. Все це дозволить відвідувачу
@@ -384,11 +381,11 @@
                                        ./images/lab_370@2x.jpg 2x"
                                        media="(min-width:1200px)"       
         
-                                     />
+                                    />
                                     
-                                        <img src="./images/lab.jpg" alt="foto" width="" class="galeri-cart__cart-img">
-                                    </picture>
-                                <div > <!--overlay    -->
+                                    <img src="./images/lab.jpg" alt="foto" width="" class="galeri-cart__cart-img">
+                                </picture>
+                                <div> <!--overlay    -->
                                     <p class="galeri-cart__gallery-cart-text">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем
                                         функціоналу та сервісів. Все це дозволить відвідувачу
@@ -423,11 +420,11 @@
                                        ./images/business_370@2x.jpg 2x"
                                        media="(min-width:1200px)"       
         
-                                     />
+                                    />
                                     
-                                        <img src="./images/busines.jpg" alt="foto" width="" class="galeri-cart__cart-img"/>
-                                    </picture>
-                                <div > <!--overlay    -->
+                                    <img src="./images/busines.jpg" alt="foto" width="" class="galeri-cart__cart-img"/>
+                                </picture>
+                                <div> <!--overlay    -->
                                     <p class="galeri-cart__gallery-cart-text">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем
                                         функціоналу та сервісів. Все це дозволить відвідувачу
@@ -439,7 +436,7 @@
                             <div class="galeri-cart__galeri-stil">
                                 <h2 class="galeri-cart__title-gal">Growing Business</h2>
                                 <p class="galeri-cart__title-pro">Додаток</p>
-                           </div>
+                            </div>
                         </a>
                     </li>
                 </ul>
@@ -501,61 +498,12 @@
             </div>                 
         </div>
     </footer>
-    <!--  модальне вікно --> 
-    <!-- <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button class="modal-but" data-modal-close >
-                <svg width="18" height="18" class="modal-of">
-                    <use href="./images/icons.svg#icon-close-black"></use>
-                </svg>
-            </button>
-            <h2 class="backdrop__form-title">Залиште свої дані, ми вам передзвонимо</h2> 
-            <form class="backdrop__form form">
-                <!-- <div class="forma"> -->
-                <!-- <div class="form__form-field">
-                    <label for="neme" class="form__form-label">Ім'я</label>
-                    <input class="form__form-input" type="text" name="user-nem" id="neme">
-                    <svg width="18" height="18" class="form__modal-form">
-                        <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-                    </svg>
-                </div>
-                <div class="form__form-field">   
-                    <label for="fone" class="form__form-label">Тклефон</label>
-                    <input class="form__form-input" type="tel" name="tel" id="fone">
-                    <svg width="18" height="18" class="form__modal-form">
-                        <use href="./images/icons.svg#icon-phone-black-18dp-1-1"></use>
-                    </svg>
-                </div>
-                <div class="form__form-field">                
-                    <label for="gmail" class="form__form-label">Пошта</label>
-                    <input class="form__form-input" type="email" name="tel" id="gmail">
-                    <svg width="18" height="18" class="form__modal-form">
-                        <use href="./images/icons.svg#icon-list"></use>
-                    </svg>
-                </div>
-                <div class="form__form-field">
-                    <label class="form__form-coment" for="comment">Коментар</label>
-                    <textarea class="form__textar" name="comment" id="comment" placeholder="Введіть текст" rows="6"></textarea>
-                </div>
-                <div class="form__form-chek">
-                    <label class="form__form-dok" for="form-dok">
-                        <input class="form__checkbox" type="checkbox" name="tops" value="form-dok" id="form-dok">
-                        <svg width="16" height="15" class="form__modal-chek">
-                            <use href="./images/icons.svg#icon-Vector">
-                        </svg>
-                        Погоджуюся з розсилкою та приймаю<a href="#" class="form__contrakte">Умови договору</a>
-                    </label> 
-                </div>
-                <button class="form__bat-form" type="submit">Відправити</button>
-            </form>                        
-        </div> -->
-    </div>
-    <script
+    <!-- <script
         defer
         src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
         crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <script src="./js/mobile-menu.js"></script>
     <!-- <script src="./js/modal.js"></script>     -->
 </body>
