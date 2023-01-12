@@ -456,7 +456,7 @@ body {
   }
 }
 
-.aute-nav .list {
+.aute-nav__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -471,6 +471,7 @@ body {
 .aute-nav__icons-mail,
 .aute-nav__icons-tel {
   fill: currentColor;
+  margin-right: 8px;
 }
 
 .aute-nav__link {
@@ -1845,10 +1846,10 @@ body {
   padding: 63px 24px;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: -webkit-transform 250ms ease;
-  transition: -webkit-transform 250ms ease;
-  transition: transform 250ms ease;
-  transition: transform 250ms ease, -webkit-transform 250ms ease;
+  -webkit-transition: -webkit-transform 550ms ease;
+  transition: -webkit-transform 550ms ease;
+  transition: transform 550ms ease;
+  transition: transform 550ms ease, -webkit-transform 550ms ease;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -2153,4 +2154,153 @@ body {
 
 .footr-soc-list__footr-soc-items {
   background-position: center;
+}
+
+.kontakt-knopka {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: white;
+}
+
+.sekcion__kontakt-test {
+  background-color: #757575;
+  margin: 30px 30px;
+}
+
+.kontakt__blok {
+  width: 100%;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kontakt__blok-btn_1,
+.kontakt__blok-btn_2 {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 60px;
+  padding: 0px 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 50%;
+  top: 0;
+  position: relative;
+  color: blue;
+  background-color: rgb(44, 128, 212);
+  -webkit-box-shadow: 0 10px 0px #3c354a;
+          box-shadow: 0 10px 0px #3c354a;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  cursor: pointer;
+}
+
+.kontakt__blok-btn_1:hover {
+  top: 2px;
+  -webkit-box-shadow: 0 3px 0px;
+          box-shadow: 0 3px 0px;
+  background-color: brown;
+  color: white;
+  border-radius: 50%;
+}
+
+.kontakt__blok-btn_2:hover {
+  top: 2px;
+  -webkit-box-shadow: 0 3px 0px;
+          box-shadow: 0 3px 0px;
+  background-color: #565656;
+  color: white;
+  border-radius: 50%;
+}
+
+.kontakt__blok-btn_3 {
+  width: 280px;
+  height: 60px;
+  display: -ms-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.popap {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(248, 144, 9, 0.881);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup__body {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 90px 60px;
+}
+
+.popup__content {
+  background-color: white;
+  color: black;
+  max-width: 800px;
+  padding: 30px;
+  position: relative;
+}
+
+.popap__title {
+  font-size: 40px;
+  margin: 0px 0px 1em 0px;
+}
+
+.popup__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+}
+
+.popap:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popap-clos {
+  display: block;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+}
+
+.mur {
+  position: absolute;
+  visibility: hidden;
+}
+
+.mur:target {
+  opacity: 1;
+  visibility: visible;
 }/*# sourceMappingURL=main.css.map */

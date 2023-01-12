@@ -398,7 +398,7 @@
     }
    
   }
-  .aute-nav .list {
+  .aute-nav__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -407,7 +407,7 @@
   .aute-nav__icons-mail,
   .aute-nav__icons-tel {
     fill: currentColor;
-   
+   margin-right: 8px;
   }
   
  
